@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name = ".StopWatch"></activity>
+        <activity android:name = ".StopWatch" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name = ".Edit" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name = ".Statistics" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".MyYearMonthPicker" />
     </application>
 
 </manifest>
